@@ -71,7 +71,7 @@ const Footer = () => {
             alt="Scan UPI QR"
             className="w-24 h-24 mx-auto object-contain border rounded-md mb-2"
           />
-          <p className="text-xs text-gray-500">Scan UPI support</p>
+          <p className="text-xs text-gray-500">Scan UPI to support</p>
         </div>
 
       </div>
