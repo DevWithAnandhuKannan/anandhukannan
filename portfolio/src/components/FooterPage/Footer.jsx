@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail, Instagram, Send, MapPin, Coffee } from "lucide-react";
-
+import qrImage from '../../assets/anandhu_upi_qr.png'
 const Footer = () => {
   return (
     <footer className="w-full bg-white text-black px-6 sm:px-12 lg:px-40 py-12 border-t border-gray-200">
@@ -66,9 +66,9 @@ const Footer = () => {
           <h2 className="font-semibold text-lg mb-2 flex items-center justify-center gap-1">
             <Coffee size={18} /> Buy Me a Coffee
           </h2>
-          <img 
-            src="/src/assets/anandhu_upi_qr.png" 
-            alt="Scan UPI QR" 
+          <img
+            src="https://raw.githubusercontent.com/DevWithAnandhuKannan/anandhukannan/refs/heads/main/portfolio/src/assets/anandhu_upi_qr.png"
+            alt="Scan UPI QR"
             className="w-24 h-24 mx-auto object-contain border rounded-md mb-2"
           />
           <p className="text-xs text-gray-500">Scan UPI to support</p>
