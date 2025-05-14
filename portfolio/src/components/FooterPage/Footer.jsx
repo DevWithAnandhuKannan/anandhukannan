@@ -66,11 +66,11 @@ const Footer = () => {
           <h2 className="font-semibold text-lg mb-2 flex items-center justify-center gap-1">
             <Coffee size={18} /> Buy Me a Coffee
           </h2>
-          <img
-            src="https://raw.githubusercontent.com/DevWithAnandhuKannan/anandhukannan/refs/heads/main/portfolio/src/assets/anandhu_upi_qr.png"
-            alt="Scan UPI QR"
-            className="w-24 h-24 mx-auto object-contain border rounded-md mb-2"
-          />
+       <img
+  src="/anandhu_upi_qr.png"
+  alt="Scan UPI QR"
+  className="w-24 h-24 mx-auto object-contain border rounded-md mb-2"
+/>
           <p className="text-xs text-gray-500">Scan UPI to support</p>
         </div>
 
